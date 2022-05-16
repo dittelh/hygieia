@@ -1,0 +1,66 @@
+body{
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+
+}
+
+#headerIcons{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #DBC197;
+}
+
+#aLogo{
+    width: 100%;
+}
+
+.burger{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+#logo{
+    width: 30%;
+    margin-left: 3%;
+}
+
+#menu-icon{
+    width: 15%;
+    margin-right: 5%;
+}
+
+.hideLinks{
+    display: none;
+}
+
+.showLinks{
+    display: flex;
+    flex-direction: column;
+    background-color: #4D987D;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.showLinks a{
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: #D0F0D2;
+    text-align: left;
+    border-radius: 7px;
+    padding: 2% 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
