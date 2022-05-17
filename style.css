@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Cormorant;
+    src: url(../assets/fonts/CormorantGaramond-Regular.ttf);
+}
+
 body{
     margin: 0%;
 }
@@ -9,7 +14,7 @@ header{
     top: 0;
     z-index: 10;
     width: 100%;
-
+    background-color: white;
 }
 
 #headerIcons{
@@ -63,4 +68,26 @@ header{
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.point{
+    width: 10%;
 }
