@@ -70,6 +70,16 @@ header{
     margin-top: 5%;
 }
 
+.btn{
+    background-color: #DBC197;
+    text-decoration: none;
+    color: black;
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    padding: 3%;
+    border-radius: 7px;
+}
+
 
 
 
