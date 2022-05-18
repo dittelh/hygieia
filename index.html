@@ -98,36 +98,69 @@
 <section id="lastSection">
     <h1>Hvad siger tidligere klienter?</h1>
     <div class="clientStatementAllBox">
-    <img id="arrowBack" src="../assets/img/arrow.svg" alt="Pil ikon">
-    <div class="clientStatementBox">
-        <div class="photoNameSection">
-            <img class="clientPhoto" src="../assets/img/kunde1.jpg" alt="">
-            <div>
-                <p>Louise Kristensen</p>
-                <p>29 år</p>
+        <img id="arrowBack" src="../assets/img/arrow.svg" onclick="previousClient()" alt="Pil ikon">
+        <div id="client0" class="clientStatementBox clientSection clientActive">
+            <div class="photoNameSection">
+                <img class="clientPhoto" src="../assets/img/kunde1.jpg" alt="Kunde foto">
+                <div class="clientFacts">
+                    <p>Louise Kristensen</p>
+                    <p>35 år</p>
+                </div>
             </div>
+            <p class="clientText">
+                "Jeg har under hele forløbet følt mig enormt tryg og i gode hænder! 
+                Neeliya er enormt passioneret og samtidig meget lyttende. 
+                Jeg var aldrig i tvivl om, at mine ønsker blev nedprioriteret."
+            </p>
         </div>
-        <p>
-            Jeg har under hele forløbet følt mig enormt tryg og i gode hænder! 
-            Neeliya er enormt passioneret og samtidig meget lyttende. 
-            Jeg var aldrig i tvivl om, at mine ønsker blev nedprioriteret. 
-        </p>
-    </div>
-    <img id="arrowNext" src="../assets/img/arrow.svg" alt="Pil ikon">
+        <div id="client1" class="clientStatementBox clientSection">
+            <div class="photoNameSection">
+                <img class="clientPhoto" src="../assets/img/kunde2.jpg" alt="Kunde foto">
+                <div class="clientFacts">
+                    <p>Malene Justesen</p>
+                    <p>27 år</p>
+                </div>
+            </div>
+            <p class="clientText">
+                "Jeg kan varmt anbefale Neeliya! 
+                Hun hjalp mig igennem et vægttab og hun fik det til at passe til min hverdag.
+                3 måneder efter er jeg blevet så selvsikker i min egen krop!"
+            </p>
+        </div>
+        <div id="client2" class="clientStatementBox clientSection">
+            <div class="photoNameSection">
+                <img class="clientPhoto" src="../assets/img/kunde3.jpg" alt="Kunde foto">
+                <div class="clientFacts">
+                    <p>Hanne Jakobsen</p>
+                    <p>68 år</p>
+                </div>
+            </div>
+            <p class="clientText"> 
+                "Sammen med Neeliya fik jeg styr på en masse sunde vaner i min hverdag, 
+                samtidig med at jeg kan lave noget lækker kage sammen med mine børnebørn." 
+            </p>
+        </div>
+        <img id="arrowNext" src="../assets/img/arrow.svg" onclick="nextClient()" alt="Pil ikon">
     </div>
 </section>
 <footer>
     <div>
-        <img class="point" src="../assets/img/punkt.svg" alt="punkt ikon">
-        <a href="">Privatlivspolitik</a>
+       <div class="footerLinks">
+            <img class="point" src="../assets/img/punkt.svg" alt="punkt ikon">
+            <a href="">Privatlivspolitik</a>
+        </div>
+        <div class="footerLinks">
+            <img class="point" src="../assets/img/punkt.svg" alt="punkt ikon">
+            <a href="mailto:">din@mail.com</a>
+        </div>
+        <div class="footerLinks">
+            <img class="point" src="../assets/img/punkt.svg" alt="punkt ikon">
+            <a href="tel:">+45 12 34 56 78</a>
+        </div> 
     </div>
-    <div>
-        <img class="point" src="../assets/img/punkt.svg" alt="punkt ikon">
-        <a href="mailto:"></a>
-    </div>
-    <div>
-        <img class="point" src="../assets/img/punkt.svg" alt="punkt ikon">
-        <a href="tel:"></a>
+    <div id="someSection">
+        <a target="_blank" href="https://www.facebook.com/Hygieia.dk"><img class="someIcons" src="../assets/img/fb.svg" alt="facebook ikon"></a>
+        <a target="_blank" href="https://www.instagram.com/hygieia.dk/"><img class="someIcons" src="../assets/img/insta.svg" alt="insta ikon"></a>
     </div>
 </footer>
 <script src="script.js"></script>
