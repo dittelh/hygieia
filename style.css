@@ -76,8 +76,10 @@ header{
     color: black;
     font-family: seravek-web, sans-serif;
     font-style: normal;
-    padding: 3%;
+    padding: 4%;
     border-radius: 7px;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 
