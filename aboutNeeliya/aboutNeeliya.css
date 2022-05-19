@@ -1,1 +1,117 @@
 @import url("../style.css");
+
+/* Section "Hvem er jeg?" */
+
+#aboutNeeliyaFirstSection h1{
+    text-align: center;
+    margin-top: 40%;
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+}
+
+#aboutText{
+    background-color: #4D987D;
+    display: flex;
+    font-family: Cormorant;
+    font-size: 20px;
+    padding: 5%;
+}
+
+#neeliyaPhoto{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+
+
+/* Her starter styling af de to tekst box */
+
+.textBoxAbout{
+    background-color: #E6F2E6;
+    margin: 10%;
+    padding: 5%;
+    border-radius: 7px;
+    border: solid #DBC197;
+    border-width: 4px;
+
+}
+
+.textBoxAbout h1{
+    text-align: center;
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.textBoxAbout p{
+    font-family: Cormorant;
+    font-size: 20px;
+}
+
+
+
+/* Styling af billede/gif */
+
+#photoSection{
+    display: flex;
+    height: 100vw;
+}
+
+#neeliyaGif{
+    width: 50vw;
+}
+
+#twoImgDiv{
+    height: 100vw;
+    object-fit: fill;
+
+}
+
+.smallImgs{
+    width: 50vw;
+}
+
+
+
+/* Why choose me? Section */
+
+#whyChooseMe{
+    margin: 10%;
+}
+
+#whyChooseMe h1{
+    text-align: center;
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.pointIcon{
+    width: 10%;
+}
+
+.pointsLeft{
+    display: flex;
+}
+
+.pointsLeft p{
+    font-family: Cormorant;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.pointsRight{
+    display: flex;
+
+}
+
+.pointsRight p{
+    font-family: Cormorant;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 5%;
+}
