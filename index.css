@@ -14,24 +14,27 @@
 }
 
 #firstSectionPhoto{
-    width: 40%;
+    width: 75%;
     position: absolute;
-    left: 0;
+    left: -15%;
     bottom: 0;
 }
 
 #firstSection h1{
     font-family: seravek-web, sans-serif;
     font-style: normal;
-    margin-bottom: 20%;
+    font-size: 35px;
+    margin-bottom: 5%;
     margin-right: 5%;
     padding-top: 10%;
+    margin-left: 40%;
 }
 
 #firstSection p{
     font-family: Cormorant;
     margin-right: 5%;
     font-size: 20px;
+    display: none;
 }
 
 
