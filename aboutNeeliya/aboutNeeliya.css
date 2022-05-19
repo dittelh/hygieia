@@ -13,17 +13,25 @@
 #aboutText{
     background-color: #4D987D;
     display: flex;
+    flex-direction: column;
     font-family: Cormorant;
     font-size: 20px;
     padding: 5%;
 }
 
+#aboutText div, #aboutText p{
+    display: flex;
+    text-align: justify;
+}
+
+
+
 #neeliyaPhoto{
-    width: 30vw;
-    height: 30vw;
+    width: 40vw;
+    height: 40vw;
     border-radius: 50%;
     margin-top: 10%;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 
 
@@ -62,17 +70,17 @@
 }
 
 #neeliyaGif{
-    width: 50vw;
+    width: 50%;
+    object-fit: cover;
 }
 
 #twoImgDiv{
-    height: 100vw;
-    object-fit: fill;
-
+    font-size: 0;
 }
 
 .smallImgs{
-    width: 50vw;
+    width: 100%;
+    height: 50%;
 }
 
 
