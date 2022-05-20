@@ -1,1 +1,69 @@
 @import url("../style.css");
+
+#whatIsHygieia{
+    margin-top: 40%;
+}
+
+#whatIsHygieia h1{
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.greekPhotos{
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+}
+
+#photoDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+#hygieiaText{
+    background-color: #D0F0D2;
+    font-family: Cormorant;
+    font-size: 20px;
+    padding: 5%;
+}
+
+
+
+/* Vision box */
+
+#visionBox{
+    border-radius: 7px;
+    padding: 5%;
+    box-shadow: 0 0 10px 10px #DBC197;
+    margin: 10%;
+    margin-top: 25%;
+}
+
+#visionBox h1{
+    text-align: center;
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+}
+
+#visionBox p{
+    font-family: Cormorant;
+    font-size: 20px;
+}
+
+
+
+/* Photo banner */
+
+#photoBanner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25%;
+}
+
+.photoBanner{
+    width: 32.5vw;
+    font-size: 0;
+}
