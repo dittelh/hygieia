@@ -76,6 +76,7 @@ header{
     color: black;
     font-family: seravek-web, sans-serif;
     font-style: normal;
+    font-size: 20px;
     padding: 4%;
     border-radius: 7px;
     margin-top: 10px;
@@ -132,6 +133,7 @@ footer a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-right: 5%;
 }
 
 

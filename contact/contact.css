@@ -1,1 +1,75 @@
 @import url("../style.css");
+
+/* ContactForm */
+
+#contactMeH1{
+    margin-top: 40%;
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contactSection{
+    background-color: #E6F2E6;
+    padding: 5%;
+    margin-top: 10% !important;
+    margin: 5%;
+    border-radius: 7px;
+    border: solid #DBC197;
+    border-width: 2px;
+}
+
+.contactSection h1{
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+}
+
+.contactNeeliyaPhoto{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+.contactSection div{
+    display: flex;
+    align-items: center;    
+    font-family: Cormorant;
+    font-size: 20px; 
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    font-family: Cormorant;
+    font-size: 20px;
+}
+
+.contactForm label{
+    margin-top: 5%; 
+}
+
+.contactForm input{
+    height: 7vw; 
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.contactForm .btn{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/* Checkmark */
+
+.container{
+    display: flex;
+    align-items: center;
+}

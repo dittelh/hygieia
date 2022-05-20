@@ -9,7 +9,7 @@
 #packageFirstSection h1{
     font-family: seravek-web, sans-serif;
     font-style: normal;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     padding-top: 5%;
 }
@@ -17,11 +17,14 @@
 #howDoesItWorkSection{
     background-color: #D0F0D2;
     padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 
 #howDoesItWorkSection h1{
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: 100;
 }
 
 #howDoesItWorkSection p{
@@ -32,12 +35,18 @@
 
 
 
+/* Her starter forløb boksene */
+
+.packageBoxFirst{
+    margin-top: 25% !important;  
+}
+
 .packageBox{
     background-color: #E6F2E6;
-    margin: 10%; 
+    margin: 10%;
     border-radius: 7px;
     border: solid #DBC197;
-    border-width: 5px;
+    border-width: 2px;
     padding-bottom: 10%;
     display: flex;
     flex-direction: column;
@@ -46,13 +55,12 @@
 .packageBox .btn{
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .packageBox h1{
     font-family: seravek-web, sans-serif;
     font-style: normal;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -64,28 +72,99 @@
 }
 
 .packagePoint{
-    width: 10%;
+    width: 15%;
+    margin-right: 2%;
 }
 
 
 
-/* Instagram post section */
+/* Package test section */
 
-#instaSection{
+#testSection{
+    background-color: #D0F0D2;
     text-align: center;
+    padding: 5%;
+    padding-bottom: 10%;
     margin-top: 25%;
 }
 
-#instaSection h1{ 
-    font-family: Cormorant;
-    font-size: 25px;
-    font-weight: 100;
-    margin-bottom: 2px;
+#testSection h1{
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 35px;
 }
 
-#instaSection h2{ 
+#testSection p{
     font-family: Cormorant;
-    font-size: 35px;
-    font-weight: 100;
-    margin-top: 0;
+    font-size: 20px;
 }
+
+
+
+/* ContactForm */
+
+.contactSection{
+    background-color: #E6F2E6;
+    padding: 5%;
+    margin-top: 25% !important;
+    margin: 5%;
+    border-radius: 7px;
+    border: solid #DBC197;
+    border-width: 2px;
+}
+
+.contactSection h1{
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+}
+
+.contactNeeliyaPhoto{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+.contactSection div{
+    display: flex;
+    align-items: center;    
+    font-family: Cormorant;
+    font-size: 20px; 
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    font-family: Cormorant;
+    font-size: 20px;
+}
+
+.contactForm label{
+    margin-top: 5%; 
+}
+
+.contactForm input{
+    height: 7vw; 
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.contactForm .btn{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/* Checkmark */
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+  
