@@ -1,7 +1,11 @@
 
-function openAnswer() {
-    var answers = document.getElementsByClassName("answerSection")
-    answers.classlist.toggle("hideAnswer")
-    answers.classlist.toggle("answerSection")
-
+function openP() {
+    var answer = document.getElementById("hideP")
+    answer.classlist.toggle("showP")
 }
+
+function openAnswer(){
+    var answer = document.getElementsByClassName("answer" + id)
+    answer[0].classList.toggle("answerSection")
+}
+
