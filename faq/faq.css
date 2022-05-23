@@ -1,1 +1,43 @@
 @import url("../style.css");
+
+.faqSection h1{
+    margin-top: 40%;
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.questionSection{
+    background-color: #d0f0d2;
+    border-radius: 7px;
+    border: solid #DBC197;
+    border-width: 2px;
+    margin: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 3%;
+    
+}
+
+.questionSection img{
+    width: 7%;
+}
+
+.questionSection p{
+    font-family: Cormorant;
+    font-size: 20px;
+}
+
+.answerSection{
+    background-color: #E6F2E6;
+    border-radius: 7px;
+    border: solid #DBC197;
+    border-width: 2px;
+    margin: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 3%;
+}
