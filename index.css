@@ -166,6 +166,7 @@
 .clientStatementAllBox{
     display: flex;
     margin: 5%;
+    align-items: center;
 }
 
 .clientStatementBox{
@@ -208,12 +209,14 @@
 #arrowBack{
     transform: rotate(-90deg);
     width: 7%;
+    height: 7%;
     cursor: pointer;
 }
 
 #arrowNext{
     transform: rotate(90deg);
     width: 7%;
+    height: 7%;
     cursor: pointer;
 }
 
