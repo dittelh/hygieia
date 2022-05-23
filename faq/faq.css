@@ -45,21 +45,4 @@
 
 .hideAnswer{
     display: none;
-    
-}
-
-#test{
-    background-color: rgb(224, 142, 142);
-    margin-top: 50%;
-    padding: 5%;
-}
-
-#hideP{
-    display: none;
-}
-
-.showP{
-    display: flex;
-    background-color: cornflowerblue;
-    padding: 5%;
 }
