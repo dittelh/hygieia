@@ -66,6 +66,9 @@
     padding-right: 10%;
 }
 
+.contactForm .submitBtn{
+    border: 0;
+}
 
 /* Checkmark */
 
