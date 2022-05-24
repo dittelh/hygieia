@@ -35,17 +35,17 @@
         </div>
         <form class="contactForm" action="contact.php" method="post">
             <label for="name">Navn</label>
-            <input type="text" id="name" name="name">
+            <input required type="text" id="name" name="name">
             <label for="email">E-mail</label>
-            <input type="text" id="email" name="email">
+            <input required type="text" id="email" name="email">
             <label for="number">Telefonnummer</label>
-            <input type="number" id="number" name="number">
+            <input required type="number" id="number" name="number">
             <label for="birthyear">Fødselsår</label>
-            <input type="number" id="birthYear" name="birthYear">
+            <input required type="number" id="birthYear" name="birthYear">
             <label for="message">Skriv en besked</label>
             <input type="text" id="message" name="message">
             <label class="container">
-                <input type="checkbox" checked="checked">
+                <input required type="checkbox" checked="checked">
                 <span class="checkmark"></span>
                 <p>Klik her for at acceptere brugen er personoplysninger.
                     Læs mere her</p>
