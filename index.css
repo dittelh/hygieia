@@ -37,6 +37,10 @@
     display: none;
 }
 
+.btnFirstSection{
+    margin-right: 5%;
+}
+
 
 
 /* The first textbox - Hvad er en kostervejleder + hvad kan jeg gøre... */
@@ -107,7 +111,7 @@
 
 .packageBox h1{
     font-family: seravek-web, sans-serif;
-    font-style: normal;
+    font-weight: 100;
     font-size: 25px;
 }
 
@@ -116,11 +120,12 @@
     font-family: Cormorant;
     font-size: 20px;
     padding: 0 8%; 
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .packagePoint{
     width: 10%;
+    padding-right: 5%;
 }
 
 
@@ -204,6 +209,7 @@
 .clientText{
     position: absolute;
     bottom: 5%;
+    padding: 5%;
 }
 
 #arrowBack{

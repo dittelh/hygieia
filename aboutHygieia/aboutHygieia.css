@@ -13,8 +13,8 @@
 
 .greekPhotos{
     border-radius: 50%;
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 25vw;
 }
 
 #photoDiv{
@@ -44,7 +44,7 @@
 #visionBox h1{
     text-align: center;
     font-family: seravek-web, sans-serif;
-    font-style: normal;
+    font-weight: 100;
     font-size: 35px;
 }
 
