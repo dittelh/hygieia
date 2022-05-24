@@ -81,8 +81,12 @@ header{
     padding: 4%;
     border-radius: 7px;
     margin-top: 10px;
-    display: inline-block;
+   /* display: inline-block;*/
     justify-content: center;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
