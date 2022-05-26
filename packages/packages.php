@@ -36,8 +36,8 @@ $toEmail = "dittehansen143@gmail.com";
     // Send mail
     if (mail($toEmail, $subject, $message, $headers) ) {
      // Redirect back with success popup
-        header('Location: contact.html?success=1');
+        header('Location: packages.html?success=1');
     } else {
         // Redirect back with success popup
-        header('Location: contact.html?success=0');
+        header('Location: packages.html?success=0');
     }

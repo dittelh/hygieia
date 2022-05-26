@@ -37,18 +37,20 @@
             <label for="name">Navn</label>
             <input required type="text" id="name" name="name">
             <label for="email">E-mail</label>
-            <input required type="text" id="email" name="email">
+            <input required type="email" id="email" name="email">
             <label for="number">Telefonnummer</label>
             <input required type="number" id="number" name="number">
             <label for="birthYear">Fødselsår</label>
             <input required type="number" id="birthYear" name="birthYear">
             <label for="message">Skriv en besked</label>
-            <input type="text" id="message" name="message">
+            <textarea id="message" name="message" rows="4"></textarea>
             <div class="container">
-                <input required type="checkbox" checked="checked">
-                <span class="checkmark"></span>
+                <label class="checkboxContainer">
+                    <input required type="checkbox" class="checkPrivacy">
+                    <span class="checkmark"></span>
+                </label>
                 <p>Klik her for at acceptere brugen er personoplysninger.
-                    Læs mere her</p>
+                    Læs mere <a href="../privacyPolicy/privacyPolicy.html">her</a></p>
                 </div>
             <button class="btn submitBtn" type="submit">Send</button>
         </form>
@@ -75,5 +77,6 @@
     </div>
 </footer>
 <script src="../script.js"></script>
+<script src="contact.js"></script>
 </body>
 </html>

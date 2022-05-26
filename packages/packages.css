@@ -23,8 +23,11 @@
 
 
 #howDoesItWorkSection h2{
+    font-family: seravek-web, sans-serif;
     font-size: 35px;
     font-weight: 100;
+    text-align: center;
+    padding-top: 10%;
 }
 
 #howDoesItWorkSection p{
@@ -160,8 +163,67 @@
 }
 
 
-/* Checkmark */
-
+/* Checkbox */
+.checkboxContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .checkboxContainer .checkPrivacy {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 1px;
+    width: 1px;
+    left: 10px;
+    top: 25px;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  .checkboxContainer .checkPrivacy:checked ~ .checkmark {
+    background-color: #4D987D;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkboxContainer .checkPrivacy:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkboxContainer .checkmark:after {
+      left: 9px;
+      top: 5px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  
 .container{
     display: flex;
     align-items: center;

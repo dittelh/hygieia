@@ -21,6 +21,7 @@ header{
 #headerIcons{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 4px solid #DBC197;
 }
 
@@ -35,12 +36,14 @@ header{
 }
 
 #logo{
-    width: 30%;
+    width: 30vw;
+    height: 30vw;
     margin-left: 3%;
 }
 
 #menu-icon{
-    width: 15%;
+    width: 15vw;
+    height: 15vw;
     margin-right: 5%;
 }
 
@@ -96,13 +99,15 @@ header{
 footer{
     border-top: 4px solid #DBC197;
     display: flex;
+    justify-content: space-between;
     padding-top: 5%;
     margin-bottom: 5%;
     margin-top: 20%;
 }
 
 .point{
-    width: 10%;
+    width: 10vw;
+    height: 10vw;
     margin-left: 5%;
     margin-bottom: 5%;
 }
@@ -127,5 +132,9 @@ footer a{
     margin-right: 5%;
 }
 
+.someIcons{
+    width: 15vw;
+    height: 15vw;
+}
 
 
