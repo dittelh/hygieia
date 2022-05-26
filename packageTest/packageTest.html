@@ -26,19 +26,236 @@
             <a href="../faq/faq.html">FAQ</a>
         </nav>
     </header>
- 
+    <section id="testSection">
+        <h1>Forløbs testen</h1>
+        <form id="testForm" action="">
+            <!-- Gender -->
+            <div id="gender">
+                <label class="questions" for="gender">Vælg dit køn:</label>
+                <div id="genderBox">
+                    <div>
+                        <img src="../assets/img/man-icon.svg" alt="Mande ikon">
+                        <div class="genderCheck man">
+                            <label class="checkboxContainer">
+                                <input required name="gender" type="radio" class="checkPrivacy">
+                                <span class="checkmark"></span>
+                            </label>
+                            <p>Mand</p>
+                        </div>  
+                    </div>
+                    <div>
+                        <img src="../assets/img/woman-icon.svg" alt="Kvinde ikon">
+                        <div class="genderCheck woman">
+                            <label class="checkboxContainer">
+                                <input required name="gender" type="radio" class="checkPrivacy">
+                                <span class="checkmark"></span>
+                            </label>
+                            <p>Kvinde</p>
+                        </div>
+                    </div>
+                </div>
+                <p>*Jeg er nødt til at vide dit køn, så jeg præcist kan beregne til dit behov</p>
+                <a href="#facts" class="btn submitBtn">Næste</a>
+            </div>
+            <!-- Facts -->
+            <div class="facts" id="facts">
+                <label for="weight">Hvad er din vægt?</label>
+                <input type="text" name="weight" id="weight">
+                <label for="age">Hvad er din alder?</label>
+                <input type="text" name="age" id="age">
+                <label for="height">Hvor høj er du?</label>
+                <input type="text" name="height" id="height">
+                <a href="#activity" class="btn submitBtn">Næste</a>
+            </div>
+            <!-- Activity -->
+            <div class="activity" id="activity">
+                <label for="activity">Hvad er dit aktivitetsniveau?</label>
+                <div>
+                    <div id="rangeP">
+                        <p>Lidt</p>
+                        <p>Moderat</p>
+                        <p>Meget</p>
+                    </div>
+                    <input type="range" id="points" name="points" min="0" max="4">
+                </div>
+                <label id="activityExtra" for="activ">Hvad er du aktiv med?</label>
+                <input type="text" name="activ" id="activ">
+                <a href="#wishWeight" class="btn submitBtn">Næste</a>
+            </div>
+            <!-- Wish weight -->
+            <div class="wishWeight" id="wishWeight">
+                <label id="wishWeight" for="wishWeight">Hvad ønsker du, at din vægt skal være?</label>
+                <input type="text" name="wishWeight" id="wishWeight">
+                <div class="dontKnowCheck">
+                    <label class="checkboxContainer">
+                        <input required type="checkbox" class="checkPrivacy">
+                        <span class="checkmark"></span>
+                    </label>
+                    <p>Ved ikke</p>
+                </div>  
+                <a href="#motivation" class="btn submitBtn">Næste</a>
+            </div>
+            <!-- Motivation -->
+            <div class="motivation" id="motivation">
+                <label for="motivation">Hvor motiveret er du for at nå målet?</label>
+                <div>
+                    <div id="rangeP">
+                        <p>Lidt</p>
+                        <p>Moderat</p>
+                        <p>Meget</p>
+                    </div>
+                    <input type="range" id="points" name="points" min="0" max="4">
+                </div>
+                <a href="#allergy" class="btn submitBtn">Næste</a>
+            </div>
+            <!-- allergy -->
+            <div class="allergy" id="allergy">
+                <label id="allergy" for="allergy">Har du nogle allergener, som jeg skal vide noget om?</label>
+                <input type="text" name="allergy" id="allergy">
+                <div class="dontKnowCheck">
+                    <label class="checkboxContainer">
+                        <input required type="checkbox" class="checkPrivacy">
+                        <span class="checkmark"></span>
+                    </label>
+                    <p>Ved ikke</p>
+                </div>  
+                <a href="#diseases" class="btn submitBtn">Næste</a>
+            </div>
+            <!-- diseases -->
+            <div class="diseases" id="diseases">
+                <label id="diseases" for="diseases">Har du nogle sygdomme, som jeg skal kende til?</label>
+                <input type="text" name="diseases" id="diseases">
+                <div class="dontKnowCheck">
+                    <label class="checkboxContainer">
+                        <input required type="checkbox" class="checkPrivacy">
+                        <span class="checkmark"></span>
+                    </label>
+                    <p>Ved ikke</p>
+                </div>  
+                <a href="#confirmSection" class="btn submitBtn">Næste</a>
+            </div>
+            <section class="confirmSection" id="confirmSection">
+                <h2>Bekræft dine oplysninger:</h2>
+                <div class="factsSection facts1">
+                    <div>
+                        <p class="topic">Dit køn:</p>
+                        <p>Kvinde</p>
+                    </div>
+                    <div class="edit">
+                        <p>Ret</p>
+                        <img class="editIcon" src="../assets/img/edit-icon.svg" alt="Rette ikon">
+                    </div>
+                </div>
+                <div class="factsSection facts2">
+                    <div>
+                        <p class="topic">Din vægt:</p>
+                        <p>78 kg</p>
+                    </div>
+                    <div class="edit">
+                        <p>Ret</p>
+                        <img class="editIcon" src="../assets/img/edit-icon.svg" alt="Rette ikon">
+                    </div>
+                </div>
+                <div class="factsSection facts1">
+                    <div>
+                        <p class="topic">Din alder:</p>
+                        <p>54 år</p>
+                    </div>
+                    <div class="edit">
+                        <p>Ret</p>
+                        <img class="editIcon" src="../assets/img/edit-icon.svg" alt="Rette ikon">
+                    </div>
+                </div>
+                <div class="factsSection facts2">
+                    <div>
+                        <p class="topic">Din højde:</p>
+                        <p>168 cm</p>
+                    </div>
+                    <div class="edit">
+                        <p>Ret</p>
+                        <img class="editIcon" src="../assets/img/edit-icon.svg" alt="Rette ikon">
+                    </div>
+                </div>
+                <div class="factsSection facts1">
+                    <div>
+                        <p class="topic">Aktivitetsniveau:</p>
+                        <p>Middel</p>
+                    </div>
+                    <div class="edit">
+                        <p>Ret</p>
+                        <img class="editIcon" src="../assets/img/edit-icon.svg" alt="Rette ikon">
+                    </div>
+                </div>
+                <div class="factsSection facts2">
+                    <div>
+                        <p class="topic">Din ønsket vægt:</p>
+                        <p>68 kg</p>
+                    </div>
+                    <div class="edit">
+                        <p>Ret</p>
+                        <img class="editIcon" src="../assets/img/edit-icon.svg" alt="Rette ikon">
+                    </div>
+                </div>
+                <div class="factsSection facts1">
+                    <div>
+                        <p class="topic">Motivationsniveau:</p>
+                        <p>Middel</p>
+                    </div>
+                    <div class="edit">
+                        <p>Ret</p>
+                        <img class="editIcon" src="../assets/img/edit-icon.svg" alt="Rette ikon">
+                    </div>
+                </div>
+                <div class="factsSection facts2">
+                    <div>
+                        <p class="topic">Allergener:</p>
+                        <p>Nej</p>
+                    </div>
+                    <div class="edit">
+                        <p>Ret</p>
+                        <img class="editIcon" src="../assets/img/edit-icon.svg" alt="Rette ikon">
+                    </div>
+                </div>
+                <div class="factsSection facts1">
+                    <div>
+                        <p class="topic">Sygdomme:</p>
+                        <p>Nej</p>
+                    </div>
+                    <div class="edit">
+                        <p>Ret</p>
+                        <img class="editIcon" src="../assets/img/edit-icon.svg" alt="Rette ikon">
+                    </div>
+                </div>
+                <a class="btn submitBtn confirmBtn" href="#lastConfirmSection">Bekræft</a>
+            </section>
+            <section id="lastConfirmSection">
+                <h2>Nu mangler jeg bare din e-mail og telefon Nr.</h2>
 
+                <label for="email">E-mail</label>
+                <input required type="email" id="email" name="email">
 
+                <label for="confirmEmail">Bekræft e-mail</label>
+                <input required type="email" id="email" name="email">
 
+                <label for="number">Telefonnummer</label>
+                <input required type="number" id="number" name="number">
 
+                <label for="number">Bekræft telefonnummer</label>
+                <input required type="number" id="number" name="number">
 
-
-
-
-
-
-
-
+                <div class="confirmCheck">
+                    <label class="checkboxContainer">
+                        <input required name="confirm" type="checkbox" class="checkPrivacy">
+                        <span class="checkmark"></span>
+                    </label>
+                    <p>Klik her for at acceptere brugen er personoplysninger.
+                        Læs mere <a href="../privacyPolicy/privacyPolicy.html">her</a></p>
+                </div>
+                <button type="submit" class="btn submitBtn">Send testen</button>
+            </section>
+        </form>
+        <img id="arrowUp" src="../assets/img/arrowUp.svg" alt="Pil op">
+    </section>
 <footer>
     <div>
         <div class="footerLinks">

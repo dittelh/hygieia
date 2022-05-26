@@ -1,2 +1,470 @@
 @import url("../style.css");
 
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #D0F0D2;
+}
+
+#testSection h1{
+    margin-top: 40%;
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.questions{
+    display: flex;
+    justify-content: center;
+    font-family: Cormorant;
+    font-size: 30px; 
+    font-weight: 700;
+}
+
+
+/* Gender section */
+
+#genderBox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.genderCheck{
+    display: flex;
+    align-items: center;
+}
+
+.man{
+    display: flex;
+    justify-content: center;
+}
+
+.woman{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.genderCheck p{
+    font-size: 20px!important;
+}
+
+#gender p{
+    margin: 10%;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 15px;
+}
+
+
+/* Weight, age, height section */
+
+.facts{
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    scroll-margin-top: 200px;
+}
+
+.facts label{
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 30px; 
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.facts input{
+    height: 10vw; 
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+
+
+/* Activity */
+
+.activity{
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    scroll-margin-top: 200px;
+}
+
+.activity label{
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 30px; 
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+#rangeP{
+    display: flex;
+    justify-content: space-around;
+    font-family: Cormorant;
+    font-size: 20px;
+}
+
+#rangeP p{
+    margin-bottom: 0;
+}
+
+#points{
+    width: 80vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#activityExtra{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.activity input{
+    height: 10vw; 
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+
+/* Wishing weight */
+
+.wishWeight{
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    scroll-margin-top: 200px;
+}
+
+.wishWeight label{
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 30px; 
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.wishWeight input{
+    height: 10vw; 
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.dontKnowCheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.dontKnowCheck p{
+    font-family: Cormorant;
+    font-size: 20px;
+}
+
+
+/* Motivation */
+
+.motivation{
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    scroll-margin-top: 200px;
+}
+
+.motivation label{
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 30px; 
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.motivation input{
+    margin-bottom: 20%;
+}
+
+
+/* Allergy */
+
+.allergy{
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    scroll-margin-top: 200px;
+}
+
+.allergy label{
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 30px; 
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.allergy input{
+    height: 10vw; 
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Diseases */
+
+.diseases{
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    scroll-margin-top: 200px;
+}
+
+.diseases label{
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 30px; 
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.diseases input{
+    height: 10vw; 
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+
+.submitBtn{
+    border: 0;
+}
+
+#arrowUp{
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+
+}
+
+
+
+/* Checkbox */
+.checkboxContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkboxContainer .checkPrivacy {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 1px;
+    width: 1px;
+    left: 10px;
+    top: 25px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.checkboxContainer .checkPrivacy:checked ~ .checkmark {
+    background-color: #4D987D;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkboxContainer .checkPrivacy:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkboxContainer .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Confirm informations */
+
+.confirmSection{
+    margin-top: 100%;
+    scroll-margin-top: 170px;
+}
+
+.confirmSection h2{
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 30px; 
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.factsSection{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Cormorant;
+    font-size: 20px;
+}
+
+.facts1{
+    background-color: #E6F2E6;
+}
+
+.facts2{
+    background-color: white;
+}
+
+.topic{
+    font-weight: 900;
+    margin-bottom: 0%
+}
+
+.edit{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2%;
+}
+
+.edit p{
+    margin: 0;
+}
+
+.editIcon{
+    width: 5vw;
+    height: 5vw;
+}
+
+.confirmBtn{
+    margin-top: 10%;
+}
+
+
+
+/* Last Section - confirm email and number */
+
+#lastConfirmSection{
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    scroll-margin-top: 170px;
+}
+
+#lastConfirmSection h2{
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 30px; 
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+#lastConfirmSection label{
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 20px; 
+    font-weight: 100;
+    margin-bottom: 2%;
+}
+
+#lastConfirmSection input{
+    height: 10vw; 
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.confirmCheck{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.confirmCheck p{
+    font-family: Cormorant;
+    font-size: 20px; 
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: white;
+}
