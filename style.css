@@ -183,6 +183,10 @@ footer a{
         height: 8vw;
     }
 
+    .activeHeaderLink{
+        color: #4D987D !important;
+    }
+
 
     /* Knapper */
 
