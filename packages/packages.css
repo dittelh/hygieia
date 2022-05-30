@@ -40,8 +40,8 @@
 
 /* Her starter forløb boksene */
 
-.packageBoxFirst{
-    margin-top: 25% !important;  
+#packageSection{
+    margin-top: 25%;
 }
 
 .packageBox{
@@ -137,6 +137,11 @@
     font-size: 20px; 
 }
 
+#desktopPContact{
+    display: none;
+}
+
+
 .contactForm{
     display: flex;
     flex-direction: column;
@@ -153,6 +158,11 @@
     border-radius: 7px;
     border-color: black;
     border-width: 1px;
+    font-size: 20px;
+}
+
+#message{
+    font-size: 20px;
 }
 
 .contactForm .btn{
@@ -176,9 +186,9 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
+}
   
-  .checkboxContainer .checkPrivacy {
+.checkboxContainer .checkPrivacy {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -186,9 +196,9 @@
     width: 1px;
     left: 10px;
     top: 25px;
-  }
-  
-  .checkmark {
+}
+
+.checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -197,37 +207,247 @@
     background-color: white;
     border: 1px solid black;
     border-radius: 4px;
-  }
-  
-  .checkboxContainer .checkPrivacy:checked ~ .checkmark {
+}
+
+.checkboxContainer .checkPrivacy:checked ~ .checkmark {
     background-color: #4D987D;
-  }
-  
-  .checkmark:after {
+}
+
+.checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  .checkboxContainer .checkPrivacy:checked ~ .checkmark:after {
+}
+
+.checkboxContainer .checkPrivacy:checked ~ .checkmark:after {
     display: block;
-  }
-  
-  .checkboxContainer .checkmark:after {
-      left: 9px;
-      top: 5px;
-      width: 5px;
-      height: 10px;
-      border: solid white;
-      border-width: 0 3px 3px 0;
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
-    }
-  
+}
+
+.checkboxContainer .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
 .container{
     display: flex;
     align-items: center;
 }
 
   
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    /* Sådan fungerer det */
+
+    #packageFirstSection{
+        margin-top: 15%;
+    }
+
+    #packageFirstSection h1{
+        font-size: 100px;
+        padding-top: 0%;
+    }
+
+    #howDoesItWorkSection h2{
+        font-size: 70px;
+        padding-top: 5%;
+    }
+
+    #howDoesItWorkSection p{
+        font-size: 35px;
+        padding: 0%;
+        text-align: center;
+    }
+
+
+    /* Her starter forløb boksene */
+
+    #packageSection{
+        display: flex;
+        margin-top: 15%;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .packageBox{
+        margin: 2%;
+        border-width: 4px;
+        padding-bottom: 15vw;
+        min-width: 25vw;
+        position: relative;
+        min-height: 50vw;
+    }
+
+
+    .packageBox h1{
+        font-family: seravek-web, sans-serif;
+        font-style: normal;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .pointPackageSection{
+        display: flex;
+        font-family: Cormorant;
+        font-size: 35px;
+        padding: 0 8%; 
+        align-items: center;
+    }
+
+    .packagePoint{
+        width: 2vw;
+        height: 2vw;
+        margin-right: 2%;
+    }
+
+    .contactBtn{
+        position: absolute;
+        bottom: 5vw;
+        left: 3vw;
+        padding: 3%;
+    }
+
+
+    /* Package test section */
+
+    #testSection{
+        margin-top: 15%;
+        padding: 5%;
+        padding-bottom: 5%;
+    }
+
+    #testSection h1{
+        font-size: 70px;
+        margin-top: 0%;
+    }
+
+    #testSection p{
+        font-size: 35px;
+    }
+
+    /* ContactForm */
+
+    .contactSection{
+        padding: 5%;
+        margin-top: 15% !important;
+        margin: 5%;
+        border-width: 4px;
+        margin-left: 10%;
+        margin-right: 10%
+    }
+
+    .contactSection h1{
+        font-size: 70px;
+    }
+
+    .contactNeeliyaPhoto{
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+        margin-left: 2%;
+    }
+
+    .contactSection div{ 
+        font-size: 35px; 
+        display: flex;
+        justify-content: center;
+        margin: 0% 10%;
+    }
+
+    #mobilePContact{
+        display: none;
+    }
+
+    #desktopPContact{
+        display: unset;
+    }
+
+    .contactForm{
+        font-size: 35px;
+        margin: 0% 5%;
+    }
+
+    .contactForm label{
+        margin-top: 5%; 
+    }
+
+    .contactForm input{
+        height: 4vw; 
+        font-size: 35px;
+    }
+
+    #message{
+        font-size: 35px;
+    }
+
+    .contactForm .btn{
+        padding-left: 10%;
+        padding-right: 10%; 
+        border: 0;
+    }
+
+    .checkmark {
+        height: 35px;
+        width: 35px;
+    }
+
+    .checkboxContainer .checkmark:after {
+        left: 13px;
+        top: 3px;
+        width: 8px;
+        height: 20px;
+    }
+
+    .checkboxContainer{
+        margin-bottom: 100px;
+        padding-right: 2%;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .contactBtn{
+        left: 5vw;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .contactBtn{
+        left: 6.5vw;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .contactBtn{
+        left: 7vw;
+    }
+    
+    .packageBox{
+        padding-bottom: 10vw;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .packageBox{
+        padding-bottom: 5vw;
+    }
+
+}
+@media screen and (min-width: 2200px) {
+    .contactBtn{
+        left: 7.8vw;
+    }
+    .packageBox{
+        padding-bottom: 3vw;
+        min-height: 45vw;
+    }
+
+}
