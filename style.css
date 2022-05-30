@@ -139,13 +139,16 @@ footer a{
 }
 
 
+/* Desktop */
 @media screen and (min-width: 992px) {
+
+    /* Header */
     #menu-icon{
         display: none;
     }
 
     #logo{
-        width: 10vw;
+        width: 8vw;
     }
 
     #myLinks{
@@ -177,13 +180,16 @@ footer a{
         justify-content: space-between;
         align-self: center;
         width: 100vw;
-        height: 10vw;
+        height: 8vw;
     }
+
+
+    /* Knapper */
 
     .btn{
         color: black;
-        font-size: 25px;
-        padding: 2%;
+        font-size: 35px;
+        padding: 2% 3%;
         border-radius: 7px;
         margin-top: 10px;
        /* display: inline-block;*/
@@ -192,6 +198,51 @@ footer a{
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
+    }
+
+
+    /* Footer */
+
+    footer{
+        border-top: 4px solid #DBC197;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 15%;
+        align-items: center;
+    }
+
+    .point{
+        width: 3vw;
+        height: 3vw;
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+
+    .footerLinks{
+        display: flex;
+        align-items: center;
+    }
+
+    footer a{
+        /* text-decoration: none; */
+        color: black;
+        font-family: Cormorant;
+        font-size: 35px;
+        margin-left: 3%;
+    }
+
+    #someSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 5%;
+    }
+
+    .someIcons{
+        width: 3vw;
+        height: 3vw;
     }
 
 }

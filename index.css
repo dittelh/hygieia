@@ -145,13 +145,10 @@
 
 #bigHygieiaSome{ 
     font-family: Cormorant;
-    font-size: 35px;
+    font-size: 35px !important;
     font-weight: 100;
     margin-top: 0;
 }
-
-
-
 
 
 
@@ -180,7 +177,6 @@
     border: solid #DBC197;
     border-width: 2px;
     font-family: Cormorant;
-    font-size: 20px;
     height: 70vw;
     width: 100vw;
     position: relative;
@@ -263,6 +259,7 @@
 
 
 @media screen and (min-width: 992px) {
+
     /* The first banner styling */
 
     #firstSection{
@@ -294,4 +291,156 @@
         right: 20%;
         bottom: 15%;
     }
+
+
+    /* The first textbox - Hvad er en kostervejleder + hvad kan jeg gøre... */
+
+    #textBoxFirstSection{
+        margin: 15%;
+    }
+
+    #textBoxFirstSection h2{
+        font-size: 50px;
+    }
+
+    #textBoxFirstSection p{
+        font-size: 35px;
+    }
+
+
+    /* Package test section */
+
+    #testSection{
+        margin-top: 15%;
+        padding: 5%;
+        padding-bottom: 5%;
+    }
+
+    #testSection h2{
+        font-size: 70px;
+        margin-top: 0%;
+    }
+
+    #testSection p{
+        font-size: 35px;
+    }
+
+
+    /*  About the different packages */
+
+    #packageH2{
+        font-size: 70px;
+        margin-top: 15%;
+    }
+
+    #packageSection{
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .packageBox{
+        margin: 2%; 
+        border-width: 4px;
+        padding-bottom: 5%;
+        width: 30vw;
+    }
+
+    .packageBox h3{
+        font-size: 55px;
+    }
+
+    .pointPackageSection{
+        font-size: 35px;
+    }
+
+    .packageBtn{
+        margin-top: 10%;
+        padding: 5%;
+    }
+
+
+    /* Instagram post section */
+
+    #instaSection{
+        margin-top: 15%;
+    }
+
+    #instaSection h2{ 
+        font-size: 55px;
+    }
+
+    #bigHygieiaSome{ 
+        font-size: 70px !important;
+    }
+
+
+
+    /* Client Statement styling */
+
+    #lastSection h2{
+        font-size: 70px;
+        margin-top: 15%;
+    }
+
+    .clientStatementBox{
+        border-width: 4px;
+        font-family: Cormorant;
+        height: 20vw;
+        width: 50vw;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .clientStatementAllBox{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .photoNameSection{
+        display: flex;
+        justify-content: center;
+    }
+
+    .clientPhoto{
+        border-radius: 50%;
+        width: 10vw;
+        height: 10vw;
+        position: absolute;
+        left: 15%;
+    }
+
+    .clientFacts{
+        position: absolute;
+        right: 40%;
+        font-weight: 600;
+        font-size: 2vw;
+    }
+
+    .clientText{
+        position: absolute;
+        bottom: 10%;
+        padding: 5%;
+        font-size: 1.8vw;
+        margin: 0;
+    }
+
+    #arrowBack{
+        width: 3%;
+        height: 3%;
+    }
+
+    #arrowNext{
+        width: 3%;
+        height: 3%;
+    }
+
+
+
+
+
 }
+
+
