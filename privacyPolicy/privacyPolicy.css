@@ -1,0 +1,36 @@
+@import url("../style.css");
+body{
+    background-color: #D0F0D2;
+}
+
+footer{
+    background-color: white;
+}
+
+section{
+    margin: 5%;
+}
+
+h1{
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 10vw;
+    margin-top: 40%;
+}
+
+h3{
+    font-family: Cormorant;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+h2{
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 8vw;
+}
+
+p{
+    font-family: Cormorant;
+    font-size: 20px;
+}
