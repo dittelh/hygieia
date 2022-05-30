@@ -260,3 +260,38 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+
+@media screen and (min-width: 992px) {
+    /* The first banner styling */
+
+    #firstSection{
+        background-color: #4D987D;
+        margin-top: 20%;
+        text-align: right;
+        height: 25vw;
+    }
+
+    #firstSectionPhoto{
+        width: 33%;
+        left: 0;
+    }
+
+    #firstSection h1{
+        font-size: 4vw;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        padding-top: 3%;
+        margin-left: 20%;
+        position: absolute;
+        right: 0;
+        top: 0%;
+    }
+
+    .btnFirstSection{
+        margin-right: 5%;
+        position: absolute;
+        right: 20%;
+        bottom: 15%;
+    }
+}
