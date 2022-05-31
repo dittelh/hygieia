@@ -29,6 +29,10 @@
     padding: 5%;
 }
 
+.desktopPhotos{
+    display: none;
+}
+
 
 
 /* Vision box */
@@ -66,4 +70,71 @@
 .photoBanner{
     width: 32.5vw;
     font-size: 0;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    #whatIsHygieia{
+        margin-top: 15%;
+    }
+    
+    #whatIsHygieia h1{
+        font-size: 70px;
+    }
+    
+    .greekPhotos{
+        display: none;
+    }
+
+    .desktopPhotos{
+        display: block;
+        border-radius: 50%;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    #hygieiaText{
+        display: flex;
+        font-size: 25px;  
+    }
+
+    #hygieiaText p{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    /* Vision box */
+
+    #visionBox{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+
+    #visionBox h1{
+        font-size: 35px;
+        margin-top: 0;
+    }
+
+    #visionBox p{
+        font-size: 25px;
+    }
+
+
+    /* Photo banner */
+
+    #photoBanner{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15%;
+    }
+
+    .photoBanner{
+        width: 32.5vw;
+        font-size: 0;
+    }
+
 }
