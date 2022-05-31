@@ -75,6 +75,14 @@
   border: 0;
 }
 
+#desktopPContact{
+  display: none;
+}
+
+#message{
+  font-size: 20px;
+}
+
 /* Checkbox */
 .checkboxContainer {
   display: block;
@@ -139,4 +147,94 @@
 .container{
   display: flex;
   align-items: center;
+}
+
+
+@media screen and (min-width: 992px) {
+  /* ContactForm */
+
+  #contactMeH1{
+    margin-top: 15%;
+    font-family: seravek-web, sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .contactSection{
+    padding: 5%;
+    margin-top: 0% !important;
+    margin: 5%;
+    border-width: 4px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .contactSection h2{
+    font-size: 35px;
+    margin-top: 0;
+  }
+
+  .contactNeeliyaPhoto{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    margin-left: 2%;
+  }
+
+  .contactSection div{ 
+    font-size: 25px; 
+    display: flex;
+    justify-content: center;
+    margin: 0% 10%;
+  }
+
+  #mobilePContact{
+    display: none;
+  }
+
+  #desktopPContact{
+    display: unset;
+  }
+
+  .contactForm{
+    font-size: 25px;
+    margin: 0% 5%;
+  }
+
+  .contactForm label{
+    margin-top: 5%; 
+  }
+
+  .contactForm input{
+    height: 3vw; 
+    font-size: 25px;
+  }
+
+  #message{
+    font-size: 25px;
+  }
+
+  .contactForm .btn{
+    padding-left: 10%;
+    padding-right: 10%; 
+    border: 0;
+  }
+
+  .checkmark {
+    height: 35px;
+    width: 35px;
+  }
+
+  .checkboxContainer .checkmark:after {
+    left: 13px;
+    top: 3px;
+    width: 8px;
+    height: 20px;
+  }
+
+  .checkboxContainer{
+    margin-bottom: 100px;
+    padding-right: 2%;
+  }
 }
