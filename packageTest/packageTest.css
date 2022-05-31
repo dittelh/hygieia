@@ -494,10 +494,244 @@ body{
 
 
 
-
-
-
-
 footer{
     background-color: white;
+}
+
+
+@media screen and (min-width: 992px) {
+    #testSection h1{
+        margin-top: 10%;
+        font-size: 70px;
+    }
+    
+    .questions{
+        font-size: 30px; 
+        font-weight: 700;
+    }
+    
+    
+    /* Gender section */
+    
+    #genderBox{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0%;
+    }
+    
+    .genderCheck p{
+        font-size: 25px!important;
+    }
+    
+    #gender p{
+        margin: 2%;
+        font-size: 20px;
+    }
+
+    .genderImg{
+        width: 10vw;
+    }
+
+
+    /* Weight, age, height section */
+
+    .facts{
+        margin-top: 100%;
+        display: flex;
+        flex-direction: column;
+        scroll-margin-top: 150px;
+    }
+
+    .facts label{
+        text-align: center;
+        font-family: Cormorant;
+        font-size: 30px; 
+        font-weight: 700;
+        margin-bottom: 1%;
+    }
+
+    .facts input{
+        font-size: 25px;
+        height: 3vw; 
+        margin-left: 40%;
+        margin-right: 40%;
+        margin-bottom: 3%;
+    }
+
+    /* Activity */
+
+    .activity{
+        margin-top: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        scroll-margin-top: 150px;
+    }
+
+    .activity label{
+        font-size: 30px; 
+        margin-bottom: 5%;
+    }
+
+    #rangeP{
+        font-size: 25px;
+    }
+
+    #rangeP p{
+        margin-bottom: 0;
+    }
+
+    #points{
+        width: 70vw;
+    }
+
+    #activityExtra{
+        font-size: 25px;
+        margin-bottom: 1%;
+    }
+
+    .activity #activ{
+        height: 3vw;
+        font-size: 25px; 
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 5%;
+    }
+
+    .slider {
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+ 
+    /* Wishing weight */
+
+    .wishWeight{
+        scroll-margin-top: 180px;
+    }
+
+    .wishWeight label{
+        font-size: 30px; 
+        font-weight: 700;
+        margin-bottom: 5%;
+    }
+
+    .wishWeight input{
+        height: 3vw; 
+        margin-left: 40%;
+        margin-right: 40%;
+        font-size: 25px;
+    }
+
+    .dontKnowCheck{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4%;
+    }
+
+    .dontKnowCheck p{
+        font-size: 25px;
+    }
+
+
+    /* Motivation */
+
+    .motivation{
+        scroll-margin-top: 160px;
+    }
+
+    .motivation input{
+        margin-bottom: 10%;
+    }
+
+
+    /* Allergy */
+
+    .allergy{
+        scroll-margin-top: 200px;
+    }
+
+    .allergy input{
+        height: 3vw; 
+        font-size: 25px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    /* Diseases */
+
+    .diseases{
+        scroll-margin-top: 200px;
+    }
+
+
+    .diseases input{
+        height: 3vw; 
+        font-size: 25px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+
+    /* Checkbox */
+
+    .centerCheck {
+        margin-top: 3vw;    
+    }
+
+
+    /* Confirm informations */
+
+    .factsSection{
+        font-size: 25px;
+    }
+
+    .edit{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 2%;
+    }
+
+    .editIcon{
+        width: 1.5vw;
+        height: 1.5vw;
+        padding-left: 10%;
+    }
+
+    .confirmBtn{
+        margin-top: 5%;
+    }
+
+    /* Last Section - confirm email and number */
+
+    #lastConfirmSection{
+        scroll-margin-top: 130px;
+    }
+
+    #lastConfirmSection label{
+        font-size: 24px; 
+        font-weight: 100;
+        margin-bottom: 1%;
+    }
+
+    #lastConfirmSection input{
+        height: 3vw; 
+        font-size: 25px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 3%;
+    }
+
+    .confirmCheck{
+        margin-left: 30%;
+        margin-right: 25%;
+        
+    }
+
+    .confirmCheck p{
+        font-size: 25px; 
+    }
+
+
 }
