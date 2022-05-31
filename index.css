@@ -300,11 +300,11 @@
     }
 
     #textBoxFirstSection h2{
-        font-size: 50px;
+        font-size: 35px;
     }
 
     #textBoxFirstSection p{
-        font-size: 35px;
+        font-size: 25px;
     }
 
 
@@ -317,19 +317,19 @@
     }
 
     #testSection h2{
-        font-size: 70px;
+        font-size: 55px;
         margin-top: 0%;
     }
 
     #testSection p{
-        font-size: 35px;
+        font-size: 25px;
     }
 
 
     /*  About the different packages */
 
     #packageH2{
-        font-size: 70px;
+        font-size: 55px;
         margin-top: 15%;
     }
 
@@ -348,11 +348,11 @@
     }
 
     .packageBox h3{
-        font-size: 55px;
+        font-size: 35px;
     }
 
     .pointPackageSection{
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .packageBtn{
@@ -368,11 +368,11 @@
     }
 
     #instaSection h2{ 
-        font-size: 55px;
+        font-size: 40px;
     }
 
     #bigHygieiaSome{ 
-        font-size: 70px !important;
+        font-size: 55px !important;
     }
 
 
@@ -380,7 +380,7 @@
     /* Client Statement styling */
 
     #lastSection h2{
-        font-size: 70px;
+        font-size: 55px;
         margin-top: 15%;
     }
 
@@ -423,7 +423,7 @@
         position: absolute;
         bottom: 10%;
         padding: 5%;
-        font-size: 1.8vw;
+        font-size: 1.5vw;
         margin: 0;
     }
 

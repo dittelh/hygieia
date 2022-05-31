@@ -251,17 +251,17 @@
     }
 
     #packageFirstSection h1{
-        font-size: 100px;
+        font-size: 70px;
         padding-top: 0%;
     }
 
     #howDoesItWorkSection h2{
-        font-size: 70px;
+        font-size: 55px;
         padding-top: 5%;
     }
 
     #howDoesItWorkSection p{
-        font-size: 35px;
+        font-size: 25px;
         padding: 0%;
         text-align: center;
     }
@@ -290,14 +290,14 @@
     .packageBox h1{
         font-family: seravek-web, sans-serif;
         font-style: normal;
-        font-size: 70px;
+        font-size: 55px;
         text-align: center;
     }
 
     .pointPackageSection{
         display: flex;
         font-family: Cormorant;
-        font-size: 35px;
+        font-size: 25px;
         padding: 0 8%; 
         align-items: center;
     }
@@ -325,12 +325,12 @@
     }
 
     #testSection h1{
-        font-size: 70px;
+        font-size: 35px;
         margin-top: 0%;
     }
 
     #testSection p{
-        font-size: 35px;
+        font-size: 25px;
     }
 
     /* ContactForm */
@@ -340,12 +340,13 @@
         margin-top: 15% !important;
         margin: 5%;
         border-width: 4px;
-        margin-left: 10%;
-        margin-right: 10%
+        margin-left: 15%;
+        margin-right: 15%
     }
 
     .contactSection h1{
-        font-size: 70px;
+        font-size: 55px;
+        margin-top: 0;
     }
 
     .contactNeeliyaPhoto{
@@ -356,7 +357,7 @@
     }
 
     .contactSection div{ 
-        font-size: 35px; 
+        font-size: 25px; 
         display: flex;
         justify-content: center;
         margin: 0% 10%;
@@ -371,7 +372,7 @@
     }
 
     .contactForm{
-        font-size: 35px;
+        font-size: 25px;
         margin: 0% 5%;
     }
 
@@ -380,12 +381,12 @@
     }
 
     .contactForm input{
-        height: 4vw; 
-        font-size: 35px;
+        height: 3vw; 
+        font-size: 25px;
     }
 
     #message{
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .contactForm .btn{
@@ -418,7 +419,7 @@
 
 @media screen and (min-width: 1200px) {
     .contactBtn{
-        left: 5vw;
+        left: 7vw;
     }
 }
 @media screen and (min-width: 1500px) {
