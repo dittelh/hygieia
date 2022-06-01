@@ -310,8 +310,7 @@
     .contactBtn{
         position: absolute;
         bottom: 5vw;
-        left: 3vw;
-        padding: 3%;
+        left: 4vw;
     }
 
 
@@ -349,8 +348,8 @@
     }
 
     .contactNeeliyaPhoto{
-        width: 15vw;
-        height: 15vw;
+        width: 10vw;
+        height: 10vw;
         border-radius: 50%;
         margin-left: 2%;
     }
@@ -418,14 +417,20 @@
 
 @media screen and (min-width: 1200px) {
     .contactBtn{
-        left: 7vw;
+        left: 6vw;
     }
 }
+
 @media screen and (min-width: 1500px) {
     .contactBtn{
         left: 6.5vw;
     }
+
+    .packageBox{
+        padding-bottom: 10vw;
+    }
 }
+
 @media screen and (min-width: 1800px) {
     .contactBtn{
         left: 7vw;
@@ -435,19 +440,24 @@
         padding-bottom: 10vw;
     }
 }
+
 @media screen and (min-width: 2000px) {
     .packageBox{
-        padding-bottom: 5vw;
+        padding-bottom: 10vw;
     }
 
+    .contactBtn{
+        left: 7.5vw;
+    }
 }
+
 @media screen and (min-width: 2200px) {
     .contactBtn{
-        left: 7.8vw;
-    }
-    .packageBox{
-        padding-bottom: 3vw;
-        min-height: 45vw;
+        left: 8vw;
     }
 
+    .packageBox{
+        padding-bottom: 3vw;
+        min-height: 30vw;
+    }
 }
