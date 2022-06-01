@@ -210,26 +210,30 @@
     }
 
     .pointIcon{
-        width: 5%;
+        width: 3%;
     }
 
     .pointsLeft{
         display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .pointsRight{
         display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .pointsLeft p{
         font-size: 25px;
-        margin-left: 5%;
+        margin-left: 2%;
     }
 
     .pointsRight p{
         font-size: 25px;
         text-align: unset;
-        margin-right: 5%;
+        margin-right: 2%;
     }
 
 

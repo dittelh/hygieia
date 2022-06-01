@@ -56,6 +56,9 @@
     padding-right: 5%;
     margin-top: 3%;
     display: block; 
+    font-family: Cormorant;
+    font-size: 20px;
+    margin-bottom: 6%;
 }
 
 .hideAnswer{
@@ -72,6 +75,10 @@
     
     #faqTextSection h1{
         font-size: 25px;
+    }
+
+    #faqTextSection{
+        margin-bottom: 5%;
     }
 
     .questionSection{
@@ -96,7 +103,6 @@
     .answerSection{
         font-size: 25px;
         border-width: 4px;
-        margin: 0% 10%;
         padding-left: 5%;
         padding-right: 5%;
         margin-top: 0%;

@@ -21,7 +21,6 @@
     padding-right: 5%;
 }
 
-
 #howDoesItWorkSection h2{
     font-family: seravek-web, sans-serif;
     font-size: 35px;
@@ -283,7 +282,7 @@
         padding-bottom: 15vw;
         min-width: 25vw;
         position: relative;
-        min-height: 50vw;
+        min-height: 0vw;
     }
 
 
