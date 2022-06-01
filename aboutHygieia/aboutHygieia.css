@@ -57,6 +57,50 @@
     font-size: 20px;
 }
 
+/* Instagram post section */
+
+#instaSection{
+    text-align: center;
+    margin-top: 25%;
+}
+
+#instaSection h2{ 
+    font-family: Cormorant;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 2px;
+}
+
+#bigHygieiaSome{ 
+    font-family: Cormorant;
+    font-size: 35px !important;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+#feedContainer{
+    font-size: 0;
+    margin-top: 2%;
+}
+
+.instaA:hover{
+    cursor: pointer;
+}
+
+#feedContainer a:nth-child(7),
+#feedContainer a:nth-child(8),
+#feedContainer a:nth-child(9),
+#feedContainer a:nth-child(10){
+    display: none;
+} 
+
+
+.instaImg{
+    width: 33.33vw;
+    height: 33.33vw;
+    object-fit: cover;
+    margin: 0;
+}
 
 
 /* Photo banner */
@@ -83,25 +127,28 @@
         font-size: 70px;
     }
     
-    .greekPhotos{
+    #photoDiv{
         display: none;
     }
 
     .desktopPhotos{
         display: block;
         border-radius: 50%;
-        width: 15vw;
-        height: 15vw;
+        width: 10vw;
+        height: 10vw;
     }
 
     #hygieiaText{
         display: flex;
+        justify-content: space-around;
         font-size: 25px;  
+        padding: 2%;
     }
 
     #hygieiaText p{
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: justify;
     }
 
 
@@ -121,6 +168,54 @@
 
     #visionBox p{
         font-size: 25px;
+        text-align: justify;
+    }
+
+
+    /* Instagram post section */
+
+    #instaSection{
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    #instaSection h2{ 
+        font-family: Cormorant;
+        font-size: 25px;
+        font-weight: 100;
+        margin-bottom: 2px;
+    }
+
+    #bigHygieiaSome{ 
+        font-family: Cormorant;
+        font-size: 35px !important;
+        font-weight: 100;
+        margin-top: 0;
+    }
+
+    #feedContainer{
+        font-size: 0;
+        margin-top: 2%;
+    }
+
+    .instaA:hover{
+        cursor: pointer;
+    }
+
+    #feedContainer a:nth-child(6),
+    #feedContainer a:nth-child(7),
+    #feedContainer a:nth-child(8),
+    #feedContainer a:nth-child(9),
+    #feedContainer a:nth-child(10){
+        display: none;
+    } 
+
+
+    .instaImg{
+        width: 20vw;
+        height: 20vw;
+        object-fit: cover;
+        margin: 0;
     }
 
 
