@@ -168,7 +168,7 @@
 
 
 .instaImg{
-    width: 33.33vw;
+    width: 33.33%;
     height: 33.33vw;
     object-fit: cover;
     margin: 0;
@@ -403,7 +403,7 @@
     }
 
     .instaImg{
-        width: 20vw;
+        width: 20%;
         height: 20vw;
         object-fit: cover;
     }
@@ -413,7 +413,7 @@
     #feedContainer a:nth-child(9),
     #feedContainer a:nth-child(10){
     display: unset;
-} 
+    } 
 
 
 
@@ -456,14 +456,14 @@
         position: absolute;
         right: 40%;
         font-weight: 600;
-        font-size: 2vw;
+        font-size: 30px;
     }
 
     .clientText{
         position: absolute;
         bottom: 10%;
         padding: 5%;
-        font-size: 1.5vw;
+        font-size: 25px;
         margin: 0;
     }
 

@@ -87,6 +87,9 @@
     cursor: pointer;
 }
 
+#feedContainer a:nth-child(4),
+#feedContainer a:nth-child(5),
+#feedContainer a:nth-child(6),
 #feedContainer a:nth-child(7),
 #feedContainer a:nth-child(8),
 #feedContainer a:nth-child(9),
@@ -202,6 +205,11 @@
         cursor: pointer;
     }
 
+    #feedContainer a:nth-child(4),
+    #feedContainer a:nth-child(5),
+    #feedContainer a:nth-child(6){
+        display: unset;
+    }
     #feedContainer a:nth-child(6),
     #feedContainer a:nth-child(7),
     #feedContainer a:nth-child(8),
@@ -212,7 +220,7 @@
 
 
     .instaImg{
-        width: 20vw;
+        width: 20%;
         height: 20vw;
         object-fit: cover;
         margin: 0;

@@ -90,6 +90,7 @@
     
     .questionSection:hover{
         background-color: #74CA98;
+        cursor: pointer;
     }
 
     .questionSection img{

@@ -539,7 +539,7 @@ footer{
         margin-top: 100%;
         display: flex;
         flex-direction: column;
-        scroll-margin-top: 150px;
+        scroll-margin-top: 15vw;
     }
 
     .facts label{
@@ -566,7 +566,7 @@ footer{
         flex-direction: column;
         margin-left: 5%;
         margin-right: 5%;
-        scroll-margin-top: 150px;
+        scroll-margin-top: 15vw;
     }
 
     .activity label{
@@ -607,7 +607,7 @@ footer{
     /* Wishing weight */
 
     .wishWeight{
-        scroll-margin-top: 180px;
+        scroll-margin-top: 18vw;
     }
 
     .wishWeight label{
@@ -638,7 +638,7 @@ footer{
     /* Motivation */
 
     .motivation{
-        scroll-margin-top: 160px;
+        scroll-margin-top: 16vw;
     }
 
     .motivation input{
@@ -649,7 +649,7 @@ footer{
     /* Allergy */
 
     .allergy{
-        scroll-margin-top: 200px;
+        scroll-margin-top: 15vw;
     }
 
     .allergy input{
@@ -662,7 +662,7 @@ footer{
     /* Diseases */
 
     .diseases{
-        scroll-margin-top: 200px;
+        scroll-margin-top: 15vw;
     }
 
 
@@ -687,6 +687,9 @@ footer{
 
     /* Confirm informations */
 
+    .confirmSection{
+        scroll-margin-top: 10vw;
+    }
     .factsSection{
         font-size: 25px;
     }
@@ -710,7 +713,7 @@ footer{
     /* Last Section - confirm email and number */
 
     #lastConfirmSection{
-        scroll-margin-top: 130px;
+        scroll-margin-top: 10vw;
     }
 
     #lastConfirmSection label{

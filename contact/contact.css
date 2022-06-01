@@ -75,6 +75,8 @@
   border: 0;
 }
 
+
+
 #desktopPContact{
   display: none;
 }
@@ -224,6 +226,7 @@
   .checkmark {
     height: 35px;
     width: 35px;
+    top: 20px;
   }
 
   .checkboxContainer .checkmark:after {

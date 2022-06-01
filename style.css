@@ -204,6 +204,10 @@ footer a{
         margin-right: auto;
     }
 
+    .submitBtn:hover{
+        cursor: pointer;
+    }
+
 
     /* Footer */
 
