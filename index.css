@@ -150,6 +150,30 @@
     margin-top: 0;
 }
 
+#feedContainer{
+    font-size: 0;
+    margin-top: 2%;
+}
+
+.instaA:hover{
+    cursor: pointer;
+}
+
+#feedContainer a:nth-child(7),
+#feedContainer a:nth-child(8),
+#feedContainer a:nth-child(9),
+#feedContainer a:nth-child(10){
+    display: none;
+} 
+
+
+.instaImg{
+    width: 33.33vw;
+    height: 33.33vw;
+    object-fit: cover;
+    margin: 0;
+}
+
 
 
 /* Client Statement styling */
@@ -375,6 +399,23 @@
         font-size: 55px !important;
     }
 
+    #feedContainer{
+        font-size: 0;
+    }
+
+    .instaImg{
+        width: 20vw;
+        height: 20vw;
+        object-fit: cover;
+    }
+
+    #feedContainer a:nth-child(7),
+    #feedContainer a:nth-child(8),
+    #feedContainer a:nth-child(9),
+    #feedContainer a:nth-child(10){
+    display: unset;
+} 
+
 
 
     /* Client Statement styling */
@@ -436,8 +477,6 @@
         width: 3%;
         height: 3%;
     }
-
-
 
 
 
