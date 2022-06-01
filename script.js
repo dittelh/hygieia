@@ -1,11 +1,31 @@
+var showingMenu = false
+
 function openMenu() {
-    // Fjerner eller tilføjer en class, ved at toggle
-    var links = document.getElementById("myLinks")
-    links.classList.toggle("hideLinks")
-    links.classList.toggle("showLinks")
+  // Fjerner eller tilføjer en class, ved at toggle
+  var links = document.getElementById("myLinks")
+  links.classList.toggle("hideLinks")
+  links.classList.toggle("showLinks")
+
+  showingMenu = !showingMenu;
 }
 
+window.onclick = ((event) => {
+  let classes = event.target.classList
+  let isShowLinks = false
+  let isMenu = false
 
+  for (let i = 0; i < classes.length; i++) {
+    if (classes[i] == "showLinks"){
+      isShowLinks = true
+    }
+    if (classes[i] == "menu-icon"){
+      isMenu = true
+    }
+  }
+  if (showingMenu && !isShowLinks && !isMenu) {
+    openMenu()
+  }
+})
 
 // Funktion til at skifte mellem kundeudtalelser
 var activeId = 0; 
