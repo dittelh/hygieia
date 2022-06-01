@@ -552,7 +552,7 @@ footer{
 
     .facts input{
         font-size: 25px;
-        height: 3vw; 
+        height: 2vw; 
         margin-left: 40%;
         margin-right: 40%;
         margin-bottom: 3%;
@@ -592,7 +592,7 @@ footer{
     }
 
     .activity #activ{
-        height: 3vw;
+        height: 2vw;
         font-size: 25px; 
         margin-left: 30%;
         margin-right: 30%;
@@ -617,7 +617,7 @@ footer{
     }
 
     .wishWeight input{
-        height: 3vw; 
+        height: 2vw; 
         margin-left: 40%;
         margin-right: 40%;
         font-size: 25px;
@@ -653,7 +653,7 @@ footer{
     }
 
     .allergy input{
-        height: 3vw; 
+        height: 2vw; 
         font-size: 25px;
         margin-left: 30%;
         margin-right: 30%;
@@ -667,10 +667,14 @@ footer{
 
 
     .diseases input{
-        height: 3vw; 
+        height: 2vw; 
         font-size: 25px;
         margin-left: 30%;
         margin-right: 30%;
+    }
+
+    .noCheck{
+    top: 6px;
     }
 
 
@@ -712,15 +716,17 @@ footer{
     #lastConfirmSection label{
         font-size: 24px; 
         font-weight: 100;
-        margin-bottom: 1%;
+        margin-bottom: 0.5%;
+        text-align: left;
+        margin-left: 20.2%;
     }
 
     #lastConfirmSection input{
-        height: 3vw; 
+        height: 2vw; 
         font-size: 25px;
         margin-left: 20%;
         margin-right: 20%;
-        margin-bottom: 3%;
+        margin-bottom: 2%;
     }
 
     .confirmCheck{
@@ -731,6 +737,10 @@ footer{
 
     .confirmCheck p{
         font-size: 25px; 
+    }
+
+    .lastCheck{
+        top: -10px;
     }
 
 

@@ -376,11 +376,11 @@
     }
 
     .contactForm label{
-        margin-top: 5%; 
+        margin-top: 3%; 
     }
 
     .contactForm input{
-        height: 3vw; 
+        height: 2vw; 
         font-size: 25px;
     }
 
