@@ -13,6 +13,7 @@ window.onclick = ((event) => {
   let classes = event.target.classList
   let isShowLinks = false
   let isMenu = false
+  var menuIcon = document.getElementById("menu-icon")
 
   for (let i = 0; i < classes.length; i++) {
     if (classes[i] == "showLinks"){
@@ -24,7 +25,8 @@ window.onclick = ((event) => {
   }
   if (showingMenu && !isShowLinks && !isMenu) {
     openMenu()
-  }
+    menuIcon.classList.toggle("active")
+  } 
 })
 
 // Funktion til at skifte mellem kundeudtalelser
