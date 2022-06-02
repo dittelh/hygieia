@@ -78,6 +78,13 @@
     margin-right: 2%;
 }
 
+.price{
+    text-align: center;
+    font-size: 25px;
+    font-family: Cormorant;
+    margin: 0%;
+}
+
 
 
 /* Package test section */
@@ -100,6 +107,8 @@
     font-family: Cormorant;
     font-size: 20px;
 }
+
+
 
 
 
