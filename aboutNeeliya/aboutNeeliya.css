@@ -17,6 +17,9 @@
     font-family: Cormorant;
     font-size: 20px;
     padding: 5%;
+    justify-content: center;
+    height: 20vw;
+
 }
 
 #aboutText div, #aboutText p{
@@ -30,8 +33,8 @@
     width: 40vw;
     height: 40vw;
     border-radius: 50%;
-    margin-top: 10%;
-    margin-left: 5%;
+    /* margin-top: 10%;
+    margin-left: 5%; */
 }
 
 
@@ -145,7 +148,7 @@
         font-size: 25px;
         padding: 1%;
         padding-left: 5%;
-        padding-top: 3%;
+        padding-top: 1%;
         height: 25vw;
         position: relative;
     }
