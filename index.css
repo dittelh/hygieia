@@ -136,11 +136,21 @@
     margin-top: 25%;
 }
 
+#instaIconSection{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 0%;
+    width: 10vw;
+    height: 10vw;
+}
+
 #instaSection h2{ 
     font-family: Cormorant;
     font-size: 25px;
     font-weight: 100;
     margin-bottom: 2px;
+    margin-top: 2%;
 }
 
 #bigHygieiaSome{ 
@@ -388,6 +398,11 @@
 
     #instaSection{
         margin-top: 15%;
+    }
+
+    #instaIconSection{
+        width: 5vw;
+        height: 5vw;
     }
 
     #instaSection h2{ 
