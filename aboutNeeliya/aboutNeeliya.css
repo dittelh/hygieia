@@ -97,6 +97,7 @@
     font-family: Cormorant;
     font-size: 20px;
     margin-left: 5%;
+    
 }
 
 .pointsRight{
@@ -109,6 +110,10 @@
     font-size: 20px;
     text-align: right;
     margin-right: 5%;
+}
+
+.lastChooseMe{
+    margin-bottom: 5%;
 }
 
 
