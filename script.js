@@ -104,6 +104,7 @@ function handleInstagramFeed(instagramFeed) {
 
     var newImg = document.createElement("img")
     newImg.src = feed[i].media_url
+    newImg.alt = "Instagram billede"
     newImg.className = "instaImg"
     newA.appendChild(newImg)
   }
