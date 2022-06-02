@@ -67,7 +67,7 @@ body{
     margin-top: 100%;
     display: flex;
     flex-direction: column;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 38vw;
 }
 
 .facts label{
@@ -98,7 +98,7 @@ body{
     flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 45vw;
 }
 
 .activity label{
@@ -184,7 +184,7 @@ body{
     flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 30vw;
 }
 
 .wishWeight label{
@@ -225,7 +225,7 @@ body{
     flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 45vw;
 }
 
 .motivation label{
@@ -249,7 +249,7 @@ body{
     flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 40vw;
 }
 
 .allergy label{
@@ -277,7 +277,7 @@ body{
     flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 40vw;
 }
 
 .diseases label{
@@ -385,7 +385,7 @@ body{
 
 .confirmSection{
     margin-top: 100%;
-    scroll-margin-top: 170px;
+    scroll-margin-top: 35vw;
 }
 
 .confirmSection h2{
@@ -449,7 +449,7 @@ body{
     flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
-    scroll-margin-top: 170px;
+    scroll-margin-top: 30vw;
 }
 
 #lastConfirmSection h2{
