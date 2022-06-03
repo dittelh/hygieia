@@ -76,8 +76,8 @@ var requestOptions = {
 
 
 // Denne token skal udskiftes med en ny token hver 2. måned 
-// Tokenet er fra d. 24 maj 2022
-var token = "IGQVJWX0NGeEZAwV1B6UlBITGljTHhrZAy12Nzh5MzNxQUJIWnlVNGd4eG9NT3EteldzNEZAKRnBlSXVOR2xBTTl6YXgxYkNFRnhfWnNxcVNnNGc4U25rUEstLU90alppbzBNNGN4QVBNS1hvUFdZAdnpCWgZDZD"
+// Tokenet er fra d. 3 maj 2022
+var token = "IGQVJVTHNNcnFxYy1yeENuT3YzNjJYalRQWHQ3U2l1NXZAKaU1VTG51N0JBQlRGODk1U3NWVDc5VnVLMFJWMGNlSmV3WTN2eXdkcU1oLVl6SmdEQk1LY2R2MS0wLXIzU1MwcUR3aTlDd1ZAnRTctSUZAfdQZDZD"
 
 fetch("https://graph.instagram.com/v13.0/me/media?fields=id,media_url,permalink&access_token="+token+"&limit=10", requestOptions)
   .then(response => response.text())

@@ -199,14 +199,14 @@
 
     #instaSection h2{ 
         font-family: Cormorant;
-        font-size: 25px;
+        font-size: 40px;
         font-weight: 100;
         margin-bottom: 2px;
     }
 
     #bigHygieiaSome{ 
         font-family: Cormorant;
-        font-size: 35px !important;
+        font-size: 45px !important;
         font-weight: 100;
         margin-top: 0;
     }
