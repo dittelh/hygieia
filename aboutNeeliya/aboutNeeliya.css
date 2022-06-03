@@ -24,7 +24,7 @@
 
 #aboutText div, #aboutText p{
     display: flex;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 
@@ -49,8 +49,8 @@
     border: solid #DBC197;
     border-width: 4px;
     margin-top: 15%;
-    text-align: justify;
-    text-justify: inter-word;
+    /* text-align: justify;
+    text-justify: inter-word; */
 }
 
 .firstBox{
