@@ -1,5 +1,9 @@
 @import url("../style.css");
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Sådan fungerer det */
 
 #packageFirstSection{
@@ -121,7 +125,8 @@
     margin: 5%;
     border-radius: 7px;
     border: solid #DBC197;
-    border-width: 2px;
+    border-width: 2px;    
+    scroll-margin-top: 38vw;
 }
 
 .contactSection h1{
