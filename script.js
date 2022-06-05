@@ -92,20 +92,22 @@ function handleInstagramFeed(instagramFeed) {
   let feed = JSON.parse(instagramFeed).data
   let feedContainer = document.getElementById("feedContainer")
 
-  for (let i = 0; i < feed.length; i++) {
-    var newA = document.createElement("a")
-    newA.href = feed[i].permalink
-    newA.target = "_blank"
-    newA.className = "instaA"
-    newA.title = "Klik for at se Instagram billedet"
-    feedContainer.appendChild(newA)
-    
+  if(feedContainer !== null){
+    for (let i = 0; i < feed.length; i++) {
+      var newA = document.createElement("a")
+      newA.href = feed[i].permalink
+      newA.target = "_blank"
+      newA.className = "instaA"
+      newA.title = "Klik for at se Instagram billedet"
+      feedContainer.appendChild(newA)
+      
 
 
-    var newImg = document.createElement("img")
-    newImg.src = feed[i].media_url
-    newImg.alt = "Instagram billede"
-    newImg.className = "instaImg"
-    newA.appendChild(newImg)
+      var newImg = document.createElement("img")
+      newImg.src = feed[i].media_url
+      newImg.alt = "Instagram billede"
+      newImg.className = "instaImg"
+      newA.appendChild(newImg)
+    }
   }
 }
