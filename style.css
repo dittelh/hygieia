@@ -160,6 +160,8 @@ footer a{
     }
 
     #myLinks a{
+        font-family: seravek-web, sans-serif;
+        font-style: normal;
         text-decoration: none;
         color: black;
         margin-right: 5vw;
