@@ -29,6 +29,10 @@ window.onclick = ((event) => {
   } 
 })
 
+
+// Slideshowet er taget fra Dittes portfolio
+// https://github.com/dittelh/portfolio/blob/main/craftddk/craftddk.js
+// D. 7.6 2022
 // Funktion til at skifte mellem kundeudtalelser
 var activeId = 0; 
 

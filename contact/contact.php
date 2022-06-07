@@ -10,6 +10,9 @@ $number = $_POST['number'];
 $birthYear = $_POST['birthYear'];
 $message = $_POST['message'];
 
+
+// Lige nu er mailen ikke sat op med hygieias mail, derfor står Dittes mail der i stedet. 
+// Det er noget der skal skiftes ud
 // $toEmail = "neeliya@hygieia.dk";
 $toEmail = "dittehansen143@gmail.com";
 
